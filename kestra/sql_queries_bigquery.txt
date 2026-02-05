@@ -1,0 +1,15 @@
+SELECT
+  COUNT(*) AS row_count
+FROM `zoomcamp.green_tripdata`
+WHERE filename LIKE 'green_tripdata_2020-%';
+
+
+SELECT
+  COUNT(*) AS row_count
+FROM `zoomcamp.yellow_tripdata`
+WHERE filename LIKE 'yellow_tripdata_2020-%';
+
+SELECT
+  COUNT(*) AS row_count
+FROM `zoomcamp.yellow_tripdata`
+WHERE filename LIKE 'yellow_tripdata_2021-03.csv';
